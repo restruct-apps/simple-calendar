@@ -20,6 +20,6 @@
   },
   "require": {
      "silverstripe/framework": "^4.0",
-     "johngrogg/ics-parser" : "1.0.3"
+     "johngrogg/ics-parser" : "2.0.0"
   }
 }
