@@ -19,8 +19,6 @@
     "issues": "http://github.com/micschk/silverstripe-simple-calendar/issues"
   },
   "require": {
-     "silverstripe/framework": "^4.4",
-     "johngrogg/ics-parser": "*",
-     "bomo/ical-bundle": "*"
+     "silverstripe/framework": "^4.4"
   }
 }
