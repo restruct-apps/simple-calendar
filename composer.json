@@ -2,7 +2,7 @@
   "name": "restruct-apps/silverstripe-simple-calendar",
   "description": "Simple calendar pages & events for Silverstripe",
   "license": "MIT",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "keywords": [
     "silverstripe",
     "calendar",
