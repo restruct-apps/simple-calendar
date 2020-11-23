@@ -1,0 +1,33 @@
+---
+Name: simplecalendarfilterable
+Only:
+  classexists: 'Restruct\FilterableArchive\Extensions\FilterableHolderExtension'
+---
+
+Restruct\SimpleCalendar\Pages\SimpleCalendarPage:
+  extensions:
+    - Restruct\FilterableArchive\Extensions\FilterableHolderExtension
+  pagination_control_tab: "Root.Filtering"
+  managed_object_class: Restruct\SimpleCalendar\Event
+  managed_object_date_field: "Date"
+  managed_object_date_sort: "ASC"
+  paginate_objects: 'false'
+
+Restruct\SimpleCalendar\Pages\SimpleCalendarController:
+  extensions:
+    - Restruct\FilterableArchive\Extensions\FilterableHolderControllerExtension
+
+Restruct\SimpleCalendar\Event:
+  extensions:
+    - Restruct\FilterableArchive\Extensions\FilterableItemExtension
+  holder_relation_fieldname: "Calendar"
+  tags_active: 'false'
+  #categories_fieldtype: 'TagField'
+  fields_insert_before: "Date"
+
+Restruct\SimpleCalendar\ICSFeed:
+  extensions:
+    - Restruct\FilterableArchive\Extensions\FilterableItemExtension
+  holder_relation_fieldname: "Calendar"
+  tags_active: 'false'
+  categories_fieldtype: 'TagField'

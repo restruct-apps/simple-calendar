@@ -1,0 +1,3 @@
+Move dependencies to composer (instead of ./vendor)
+
+Check Date::RangeString() for creating date descriptions

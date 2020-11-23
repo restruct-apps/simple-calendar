@@ -1,0 +1,27 @@
+{
+  "name": "restruct/silverstripe-simple-calendar",
+  "description": "Simple calendar pages & events for Silverstripe",
+  "license": "MIT",
+  "type": "silverstripe-module",
+  "keywords": [
+    "silverstripe",
+    "calendar",
+    "agenda"
+  ],
+  "authors": [
+    {
+      "name": "Michael van Schaik",
+      "email": "mic@restruct.nl",
+      "homepage": "http://restruct.nl"
+    }
+  ],
+  "support": {
+    "issues": "http://github.com/micschk/silverstripe-simple-calendar/issues"
+  },
+  "require": {
+    "silverstripe/framework": "^4.4",
+    "silverstripe/cms": "^4.4",
+    "johngrogg/ics-parser": "^2.0.0",
+    "bomo/ical-bundle": "^v1.0.14"
+  }
+}
