@@ -17,7 +17,7 @@ namespace Restruct\SimpleCalendar {
 
         use EnforceCMSPermission;
 
-        private static $table_name = 'Restruct_SimpleCalendar_ICSFeed';
+        private static $table_name = 'SimpleCalendar_ICSFeed';
 
         private static $db = [
             'Title' => 'Varchar(128)',

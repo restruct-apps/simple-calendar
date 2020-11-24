@@ -15,7 +15,7 @@ namespace Restruct\SimpleCalendar\Pages {
     class SimpleCalendarPage extends Page
     {
 
-        private static $table_name = 'Restruct_SimpleCalendar_SimpleCalendarPage';
+        private static $table_name = 'SimpleCalendarPage';
 
         private static $singular_name = 'Calendar';
         private static $plural_name = 'Calendars';

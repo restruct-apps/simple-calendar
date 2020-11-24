@@ -1,0 +1,5 @@
+SilverStripe\ORM\DatabaseAdmin:
+  classname_value_remapping:
+    SimpleCalendar: 'Restruct\SimpleCalendar\Pages\SimpleCalendarPage'
+    SimpleCalendarEvent: 'Restruct\SimpleCalendar\Event'
+    SimpleCalendar_ICSFeed: 'Restruct\SimpleCalendar\ICSFeed'

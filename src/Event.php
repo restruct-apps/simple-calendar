@@ -18,7 +18,7 @@ namespace Restruct\SimpleCalendar {
         /**
          * @var string
          */
-        private static $table_name = 'Restruct_SimpleCalendar_Event';
+        private static $table_name = 'SimpleCalendarEvent';
 
         private static $singular_name = 'Calendar Event';
         private static $plural_name = 'Calendar Events';
