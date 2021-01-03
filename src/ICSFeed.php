@@ -1,6 +1,6 @@
 <?php
 
-namespace Restruct\SimpleCalendar {
+namespace Restruct\Silverstripe\SimpleCalendar {
 
     use GuzzleHttp\Client;
     use Restruct\SimpleCalendar\Pages\SimpleCalendarPage;

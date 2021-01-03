@@ -1,5 +1,5 @@
 {
-  "name": "restruct-apps/silverstripe-simple-calendar",
+  "name": "restruct/silverstripe-simple-calendar",
   "description": "Simple calendar pages & events for Silverstripe",
   "license": "MIT",
   "type": "silverstripe-vendormodule",
@@ -16,7 +16,7 @@
     }
   ],
   "support": {
-    "issues": "http://github.com/restruct-app/simple-calendar/issues"
+    "issues": "http://github.com/restruct/simple-calendar/issues"
   },
   "require": {
      "silverstripe/framework": "^4.0",

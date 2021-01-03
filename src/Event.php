@@ -1,6 +1,6 @@
 <?php
 
-namespace Restruct\SimpleCalendar {
+namespace Restruct\Silverstripe\SimpleCalendar {
 
     use Restruct\InfoField\InfoField;
     use Restruct\NamedLinkField\NamedLinkField;

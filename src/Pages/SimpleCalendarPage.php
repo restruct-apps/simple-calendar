@@ -1,6 +1,6 @@
 <?php
 
-namespace Restruct\SimpleCalendar\Pages {
+namespace Restruct\Silverstripe\SimpleCalendar {
 
     use Page;
     use Restruct\SimpleCalendar\Event;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Restruct\SimpleCalendar {
+namespace Restruct\Silverstripe\SimpleCalendar {
 
     use SilverStripe\Control\Cookie;
     use SilverStripe\Forms\GridField\GridField;
