@@ -21,6 +21,6 @@
   "require": {
     "silverstripe/framework": "^4.0",
     "johngrogg/ics-parser": "2.0.0",
-    "restruct/silverstripe-namedlinkfield": "^2.0.2"
+    "restruct/silverstripe-namedlinkfield": "dev-master"
   }
 }
