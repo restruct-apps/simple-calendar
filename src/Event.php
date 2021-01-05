@@ -3,8 +3,7 @@
 namespace Restruct\Silverstripe\SimpleCalendar {
 
     use Restruct\InfoField\InfoField;
-    use Restruct\NamedLinkField\NamedLinkField;
-    use Restruct\SimpleCalendar\Pages\SimpleCalendarPage;
+    use Restruct\SilverStripe\ORM\FieldType\NamedLinkField;
     use Restruct\Traits\EnforceCMSPermission;
     use SilverStripe\Control\Director;
     use SilverStripe\ORM\DataObject;
