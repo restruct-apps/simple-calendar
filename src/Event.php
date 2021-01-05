@@ -193,6 +193,7 @@ namespace Restruct\Silverstripe\SimpleCalendar {
             return false;
         }
 
+
         public function URLSegment()
         {
             $filter = URLSegmentFilter::create();
