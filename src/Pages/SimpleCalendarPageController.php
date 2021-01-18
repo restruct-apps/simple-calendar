@@ -1,6 +1,6 @@
 <?php
 
-namespace Restruct\Silverstripe\SimpleCalendar {
+namespace Restruct\SilverStripe\SimpleCalendar {
 
     use PageController;
     use SilverStripe\ErrorPage\ErrorPage;
@@ -8,7 +8,6 @@ namespace Restruct\Silverstripe\SimpleCalendar {
 
     class SimpleCalendarPageController extends PageController
     {
-
 
         private static $allowed_actions = [
             'event',

@@ -1,6 +1,6 @@
 <?php
 
-namespace Restruct\Silverstripe\SimpleCalendar {
+namespace Restruct\SilverStripe\SimpleCalendar {
 
     use Page;
     use SilverStripe\Forms\DropdownField;

@@ -1,33 +1,33 @@
 ---
 Name: simplecalendarfilterable
 Only:
-  classexists: 'Restruct\Silverstripe\FilterableArchive\FilterableArchiveHolderExtension'
+  classexists: 'Restruct\SilverStripe\FilterableArchive\FilterableArchiveHolderExtension'
 ---
 
-Restruct\Silverstripe\SimpleCalendar\SimpleCalendarPage:
+Restruct\SilverStripe\SimpleCalendar\SimpleCalendarPage:
   extensions:
-    - Restruct\Silverstripe\FilterableArchive\FilterableArchiveHolderExtension
+    - Restruct\SilverStripe\FilterableArchive\FilterableArchiveHolderExtension
   pagination_control_tab: "Root.Filtering"
-  managed_object_class: Restruct\Silverstripe\SimpleCalendar\Event
+  managed_object_class: Restruct\SilverStripe\SimpleCalendar\Event
   managed_object_date_field: "Date"
   managed_object_date_sort: "ASC"
   paginate_objects: 'false'
 
-Restruct\Silverstripe\SimpleCalendar\SimpleCalendarController:
+Restruct\SilverStripe\SimpleCalendar\SimpleCalendarController:
   extensions:
-    - Restruct\Silverstripe\FilterableArchive\FilterableArchiveHolderControllerExtension
+    - Restruct\SilverStripe\FilterableArchive\FilterableArchiveHolderControllerExtension
 
-Restruct\Silverstripe\SimpleCalendar\Event:
+Restruct\SilverStripe\SimpleCalendar\Event:
   extensions:
-    - Restruct\Silverstripe\FilterableArchive\FilterableArchiveItemExtension
+    - Restruct\SilverStripe\FilterableArchive\FilterableArchiveItemExtension
   holder_relation_fieldname: "Calendar"
   tags_active: 'false'
   #categories_fieldtype: 'TagField'
   fields_insert_before: "Date"
 
-Restruct\Silverstripe\SimpleCalendar\ICSFeed:
+Restruct\SilverStripe\SimpleCalendar\ICSFeed:
   extensions:
-    - Restruct\Silverstripe\FilterableArchive\FilterableArchiveItemExtension
+    - Restruct\SilverStripe\FilterableArchive\FilterableArchiveItemExtension
   holder_relation_fieldname: "Calendar"
   tags_active: 'false'
   categories_fieldtype: 'TagField'
