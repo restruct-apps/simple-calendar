@@ -8,6 +8,7 @@ namespace Restruct\Silverstripe\SimpleCalendar {
     use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
     use SilverStripe\ORM\ArrayList;
     use UncleCheese\DisplayLogic\Forms\Wrapper;
+    use Unisolutions\GridField\CopyButton;
 
     class SimpleCalendarPage extends Page
     {
@@ -18,7 +19,7 @@ namespace Restruct\Silverstripe\SimpleCalendar {
         private static $plural_name = 'Calendars';
         private static $description = 'Create a calendar page';
 
-        private static $icon = 'simple-calendar/images/calendar.gif';
+        private static $icon = 'restruct/silverstripe-simple-calendar:client/images/calendar.gif';
 
         private static $db = [
             'ShowEventsIn' => 'Enum("Future, Past, Both","Future")',
@@ -59,7 +60,7 @@ namespace Restruct\Silverstripe\SimpleCalendar {
                         'Manage events',
                         $this->Events(),
                         GridFieldConfig_RecordEditor::create()
-                            ->addComponent(new GridFieldCopyButton(), 'GridFieldEditButton')
+                            ->addComponent(new CopyButton(), 'GridFieldEditButton')
 //							->addComponent(new SC_GFToggleShowPastButton('buttons-before-right'))
                             ->addComponent(new GridFieldToggleShowPastButton('buttons-before-left'))
                     )

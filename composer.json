@@ -22,5 +22,11 @@
     "silverstripe/framework": "^4.0",
     "johngrogg/ics-parser": "2.0.0",
     "restruct/silverstripe-namedlinkfield": "dev-master"
+  },
+  "extra": {
+    "expose": [
+      "client/images"
+    ],
+    "installer-name": "simple-calendar"
   }
 }
