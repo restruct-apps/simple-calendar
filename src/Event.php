@@ -7,6 +7,7 @@ namespace Restruct\Silverstripe\SimpleCalendar {
     use Restruct\Traits\EnforceCMSPermission;
     use SilverStripe\Control\Director;
     use SilverStripe\ORM\DataObject;
+    use SilverStripe\ORM\FieldType\DBField;
     use SilverStripe\View\Parsers\URLSegmentFilter;
 
     class Event extends DataObject
@@ -122,7 +123,10 @@ namespace Restruct\Silverstripe\SimpleCalendar {
 
         public function IsPast()
         {
-            return $this->dbObject('Date')->inPast() ? "Yes" : "";
+            $past = $this->dbObject('Date')->inPast() ? "Yes" : "No";
+
+            return DBField::create_field('HTMLFragment', $past);
+
         }
 
         public function CategoriesAsString()
