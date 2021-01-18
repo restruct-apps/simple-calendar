@@ -3,7 +3,6 @@
 namespace Restruct\Silverstripe\SimpleCalendar {
 
     use GuzzleHttp\Client;
-    use Restruct\SimpleCalendar\Pages\SimpleCalendarPage;
     use Restruct\Traits\EnforceCMSPermission;
     use SilverStripe\ORM\ArrayList;
     use SilverStripe\ORM\DataObject;

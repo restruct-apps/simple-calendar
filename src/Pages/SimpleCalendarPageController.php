@@ -3,9 +3,7 @@
 namespace Restruct\Silverstripe\SimpleCalendar {
 
     use PageController;
-    use Restruct\SimpleCalendar\Event;
     use SilverStripe\ErrorPage\ErrorPage;
-    use SilverStripe\View\ArrayData;
     use SilverStripe\View\Parsers\ShortcodeParser;
 
     class SimpleCalendarPageController extends PageController
