@@ -1,0 +1,11 @@
+SilverStripe\ORM\DatabaseAdmin:
+  classname_value_remapping:
+    Restruct\SimpleCalendar\Pages\SimpleCalendarPage: 'Restruct\Silverstripe\SimpleCalendar\SimpleCalendarPage'
+    SimpleCalendar: 'Restruct\SilverStripe\SimpleCalendar\SimpleCalendarPage'
+    Restruct\Silverstripe\SimpleCalendar\SimpleCalendarPage: 'Restruct\SilverStripe\SimpleCalendar\SimpleCalendarPage'
+    SimpleCalendarEvent: 'Restruct\SilverStripe\SimpleCalendar\Event'
+    Restruct\SimpleCalendar\Event: 'Restruct\SilverStripe\SimpleCalendar\Event'
+    Restruct\Silverstripe\SimpleCalendar\Event: 'Restruct\SilverStripe\SimpleCalendar\Event'
+    SimpleCalendar_ICSFeed: 'Restruct\SimpleCalendar\ICSFeed'
+    Restruct\SimpleCalendar\ICSFeed: 'Restruct\SilverStripe\SimpleCalendar\ICSFeed'
+    Restruct\Silverstripe\SimpleCalendar\ICSFeed: 'Restruct\SilverStripe\SimpleCalendar\ICSFeed'
