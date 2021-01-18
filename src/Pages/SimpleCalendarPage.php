@@ -3,9 +3,6 @@
 namespace Restruct\Silverstripe\SimpleCalendar {
 
     use Page;
-    use Restruct\SimpleCalendar\Event;
-    use Restruct\SimpleCalendar\GridFieldToggleShowPastButton;
-    use Restruct\SimpleCalendar\ICSFeed;
     use SilverStripe\Forms\DropdownField;
     use SilverStripe\Forms\GridField\GridField;
     use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
