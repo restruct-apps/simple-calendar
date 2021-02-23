@@ -81,7 +81,7 @@ namespace Restruct\SilverStripe\SimpleCalendar {
 					&bull; If a "More Info Link" is set, the event will link to another page for more information <strong>instead</strong>.'
                 ));
 
-//		$fields->push(InlineInfoField::create('PageContent', 
+//		$fields->push(InlineInfoField::create('PageContent',
 //			_t('SIMPLECAL.PageContentDescr', ''))
 //		);
 
@@ -98,8 +98,8 @@ namespace Restruct\SilverStripe\SimpleCalendar {
             foreach ( [ 'Date', 'EndDate' ] as $fieldname ) {
                 $fields->dataFieldByName($fieldname)
                     //			->getDateField()
-                    ->setConfig('dateformat', 'dd-MM-yyyy')
-                    ->setConfig('showcalendar', 1)
+                    //->setConfig('dateformat', 'dd-MM-yyyy')
+                    //->setConfig('showcalendar', 1)
                     ->setDescription('')
                     ->addExtraClass('fourth-width')
                     ->setAttribute('placeholder', 'dd-mm-yyyy');
@@ -108,7 +108,7 @@ namespace Restruct\SilverStripe\SimpleCalendar {
             foreach ( [ 'Time', 'EndTime' ] as $fieldname ) {
                 $fields->dataFieldByName($fieldname)
                     //			->getTimeField()
-                    ->setConfig('timeformat', 'HH:mm') //24h format
+                    //->setConfig('timeformat', 'HH:mm') //24h format
                     ->setDescription('')
                     ->addExtraClass('inline-block eighth-width')
                     ->setAttribute('placeholder', '00:00');
