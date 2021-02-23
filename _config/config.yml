@@ -17,17 +17,18 @@ Restruct\SilverStripe\SimpleCalendar\SimpleCalendarController:
   extensions:
     - Restruct\SilverStripe\FilterableArchive\FilterableArchiveHolderControllerExtension
 
+
 Restruct\SilverStripe\SimpleCalendar\Event:
-  extensions:
-    - Restruct\SilverStripe\FilterableArchive\FilterableArchiveItemExtension
+#  extensions:
+#    - Restruct\SilverStripe\FilterableArchive\FilterableArchiveItemExtension
   holder_relation_fieldname: "Calendar"
   tags_active: 'false'
   #categories_fieldtype: 'TagField'
   fields_insert_before: "Date"
 
 Restruct\SilverStripe\SimpleCalendar\ICSFeed:
-  extensions:
-    - Restruct\SilverStripe\FilterableArchive\FilterableArchiveItemExtension
+#  extensions:
+#    - Restruct\SilverStripe\FilterableArchive\FilterableArchiveItemExtension
   holder_relation_fieldname: "Calendar"
   tags_active: 'false'
   categories_fieldtype: 'TagField'
