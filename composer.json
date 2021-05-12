@@ -20,8 +20,8 @@
   },
   "require": {
     "silverstripe/framework": "^4.0",
-    "johngrogg/ics-parser": "2.0.0",
-    "restruct/silverstripe-namedlinkfield": "dev-master"
+    "johngrogg/ics-parser": "^2.0.0",
+    "restruct/silverstripe-namedlinkfield": "^2.0.0"
   },
   "extra": {
     "expose": [
