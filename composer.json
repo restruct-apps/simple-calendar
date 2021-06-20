@@ -8,13 +8,7 @@
     "calendar",
     "agenda"
   ],
-  "authors": [
-    {
-      "name": "restruct",
-      "email": "apps@restruct.nl",
-      "homepage": "https://restruct.nl"
-    }
-  ],
+  "authors": [ { "name": "Restruct", "email": "dev@restruct.nl", "homepage": "https://restruct.nl" } ],
   "support": {
     "issues": "http://github.com/restruct/simple-calendar/issues"
   },
